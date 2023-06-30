@@ -1,5 +1,7 @@
-import os, requests
-from ...typing import sha256, Dict, get_type_hints
+import os
+import requests
+
+from ...typing import get_type_hints
 
 url = 'https://chat-gpt.org/chat'
 model = ['gpt-3.5-turbo']

@@ -1,13 +1,13 @@
+import hashlib
+import json
 import os
 import time
-import json
 import uuid
-import random
-import hashlib
+from datetime import datetime
+
 import requests
 
 from ...typing import sha256, Dict, get_type_hints
-from datetime import datetime
 
 url: str = 'https://ai.ls'
 model: str = 'gpt-3.5-turbo'

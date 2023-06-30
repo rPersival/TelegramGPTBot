@@ -1,16 +1,16 @@
-import os
-import json
 import random
+import asyncio
 import json
 import os
-import uuid
+import random
 import ssl
-import certifi
-import aiohttp
-import asyncio
+import uuid
 
+import aiohttp
+import certifi
 import requests
-from ...typing import sha256, Dict, get_type_hints
+
+from ...typing import get_type_hints
 
 url = 'https://bing.com/chat'
 model = ['gpt-4']

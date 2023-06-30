@@ -1,12 +1,13 @@
-import os
-import json
 import base64
-import execjs
+import json
+import os
 import queue
 import threading
 
+import execjs
 from curl_cffi import requests
-from ...typing import sha256, Dict, get_type_hints
+
+from ...typing import get_type_hints
 
 url = 'https://play.vercel.ai'
 supports_stream = True

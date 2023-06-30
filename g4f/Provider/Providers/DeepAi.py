@@ -1,10 +1,11 @@
-import os
-import json
-import random
 import hashlib
+import json
+import os
+import random
+
 import requests
 
-from ...typing import sha256, Dict, get_type_hints
+from ...typing import get_type_hints
 
 url = 'https://deepai.org'
 model = ['gpt-3.5-turbo']

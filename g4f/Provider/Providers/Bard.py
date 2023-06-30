@@ -1,5 +1,11 @@
-import os, requests, json, browser_cookie3, re, random
-from ...typing import sha256, Dict, get_type_hints
+import browser_cookie3
+import json
+import os
+import random
+import re
+import requests
+
+from ...typing import get_type_hints
 
 url = 'https://bard.google.com'
 model = ['Palm2']

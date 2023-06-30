@@ -1,10 +1,10 @@
-from requests import Session
-from uuid import uuid4
-from json import loads
 import os
-import json
-import requests
-from ...typing import sha256, Dict, get_type_hints
+from json import loads
+from uuid import uuid4
+
+from requests import Session
+
+from ...typing import get_type_hints
 
 url = 'https://gpt-gm.h2o.ai'
 model = ['falcon-40b', 'falcon-7b', 'llama-13b']

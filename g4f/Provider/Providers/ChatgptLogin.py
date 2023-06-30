@@ -1,8 +1,10 @@
-import os
-from ...typing import sha256, Dict, get_type_hints
-import requests
-import re
 import base64
+import os
+import re
+
+import requests
+
+from ...typing import get_type_hints
 
 url = 'https://chatgptlogin.ac'
 model = ['gpt-3.5-turbo']

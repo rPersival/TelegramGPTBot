@@ -1,5 +1,8 @@
-import os, uuid, requests
-from ...typing import sha256, Dict, get_type_hints
+import os
+import requests
+import uuid
+
+from ...typing import get_type_hints
 
 url = 'https://liaobots.com'
 model = ['gpt-3.5-turbo', 'gpt-4']
